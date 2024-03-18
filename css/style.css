@@ -72,8 +72,8 @@ nav {
     align-items: center;
     gap: 1rem;
     position: relative;
-    top: 200px;
-    right: -100px;
+    top: 250px;
+    right: -90px;
 }
 .cover-left h1 {
     font-size: 5rem;
@@ -109,9 +109,154 @@ nav {
     height: var(--height-img);
     animation: movimiento 2.5s linear infinite;
     position: relative;
-    top: -100px;
-    right: -700px;
+    top: -60px;
+    right: -800px;
 }
+
+
+#about {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: space-around;
+}
+.div-left {
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+.div-left img {
+    width: var(--width-img);
+    height: var(--height-img);
+    position: relative;
+    top: 250px;
+}
+.div-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 40px;
+    position: relative;
+    top: -200px;
+    right: -720px;
+}
+.div-right h3 {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+}
+.div-right .big-text {
+    font-size: 3.5rem;
+    color: var(--color-secundario);
+}
+.div-right .small-text {
+    font-size: 1.2rem;
+    color: var(--color-secundario);
+}
+.div-right button {
+    width: 25%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, var(--color-primario) 40%, #8a3313);
+    color: var(--color-secundario);
+    font-weight: 700;
+    padding: 0 2px;
+    transition: 0.1s linear;
+}
+.div-right button:hover {
+    box-shadow: 0 0 30px var(--color-primario);
+    background: linear-gradient(to bottom right, #8a3313, var(--color-primario) 40%);
+    cursor: pointer;
+}
+
+
+
+
+#menu {
+    height: calc(100vh -100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--color-primario);
+}
+.above {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.above h3 {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+}
+.above p {
+    color: var(--color-secundario);
+    font-size: 2rem;
+}
+.catalogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.card {
+    width: 250px;
+    background-color: var(--color-secundario);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-image img {
+    width: 250px;
+    height: 250px;
+    padding: 8px;
+}
+.card-content {
+    padding: 10px;
+}
+.card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.btn {
+    display: block;
+    background-color: #337ab7;
+    color: var(--color-secundario);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s easy-in-out;
+}
+.btn:hover {
+    background-color: #23527c;
+}
+
+
+
+#services {
+    height: calc(100vh -100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    gap: 2rem;
+}
+
+
+
+
 /*.burbuja {
     
     border-radius: 50%;
