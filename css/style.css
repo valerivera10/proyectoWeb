@@ -243,6 +243,7 @@ nav {
 
 
 
+/* Services */
 #services {
     height: calc(100vh -100px);
     display: flex;
@@ -253,6 +254,89 @@ nav {
     text-align: center;
     gap: 2rem;
 }
+.div-title-services {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.div-title-services h3 {
+    color: var(--color-primario);
+    font-size: 2rem;
+}
+.div-title-services p {
+    color: var(--color-secundario);
+    font-size: 2.5rem;
+}
+.images-services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.imagen-text img {
+    width: 250px;
+    height: 250px;
+}
+.text {
+    padding: 20px;
+}
+.text h3 {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* quality 5to */
+#quality {
+    margin-top: 100px;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3c5e;
+}
+.white-container {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    height:300px ;
+    width: 80%;
+    background: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+}
+.inside-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.inside-container h2 {
+    font-size: 3rem;
+}
+.inside-container button {
+    width: 20%;
+    height: 15%;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, var(--color-primario) 40%, #8a3313);
+    color: var(--color-secundario);
+    font-weight: 700;
+    padding: 0 2px;
+    transition: 0.1s linear;
+}
+.inside-container button:hover {
+    box-shadow: 0 0 30px var(--color-primario);
+    background: linear-gradient(to botton right, #8a3313, var(--color-primario) 40%);
+    cursor: pointer;
+}
+
+
+
+/* footer */
 
 
 
