@@ -72,7 +72,7 @@ nav {
     align-items: center;
     gap: 1rem;
     position: relative;
-    top: 250px;
+    top: 190px;
     right: -90px;
 }
 .cover-left h1 {
@@ -109,8 +109,8 @@ nav {
     height: var(--height-img);
     animation: movimiento 2.5s linear infinite;
     position: relative;
-    top: -60px;
-    right: -800px;
+    top: -150px;
+    right: -650px;
 }
 
 
@@ -141,7 +141,7 @@ nav {
     padding: 40px;
     position: relative;
     top: -200px;
-    right: -720px;
+    right: -550px;
 }
 .div-right h3 {
     color: var(--color-primario);
