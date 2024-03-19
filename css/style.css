@@ -10,7 +10,9 @@
 body {
     background-color: var(--color-secundario);
 }
-
+aside {
+    color: var(--color-cuarto);
+}
 
 
 
