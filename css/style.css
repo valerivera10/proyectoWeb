@@ -122,3 +122,23 @@ main {
     flex-direction: column;
     gap: .25rem;
 }
+.producto-titulo {
+    font-size: 1rem;
+}
+.producto-agregar {
+    border: 0;
+    background-color: var(--color-blanco);
+    color: var(--color-main);
+    padding: .5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid var(--color-blanco);
+    transition: background-color .2s, color .2s;
+}
+.producto-agregar:hover {
+    background-color: var(--color-main);
+    color: var(--color-blanco);
+}
+
+/* carrito de compras */
+
