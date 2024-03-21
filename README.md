@@ -2,5 +2,5 @@
 <img src="/storage/mobile (2).gif">
 
 <h1>Evidencias celular</h1>
-<img src="/storage/celular.gif>
+<img src="./storage/celular.gif>
 
