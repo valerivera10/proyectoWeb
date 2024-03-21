@@ -1,10 +1,8 @@
 :root {
-    --color-primario: #ff702a;
-    --color-secundario: #fff;
-    --color-ternario: #1e1d2b;
-    --color-cuarto: #000;
-    --color-quinto: #ffefe8;
-    --color-sexto: #2c2b47;
+    --clr-main: #2c2b47;
+    --clr-botones: #f08c00;
+    --clr-white: #ececec;
+    --clr-black: #1e1e1e;
     --height-img: 400px;
     --width-img: 400px;
 }
